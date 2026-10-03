@@ -1,0 +1,21 @@
+name: Feature request
+description: Suggest an improvement to DocuLocate.
+title: "[Feature]: "
+body:
+  - type: textarea
+    id: task
+    attributes:
+      label: What are you trying to do?
+      description: Describe the workflow and what currently gets in the way. Use fictional examples.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Desired behavior
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives or workarounds
